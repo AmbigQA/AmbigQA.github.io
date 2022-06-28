@@ -123,12 +123,15 @@
       let card3 = loadDownloadCard("Download AmbigNQ (evidence ver.)",
         "[train/dev/test] question, answers (except test), semi-oracle evidence articles (<a href='https://github.com/shmsw25/AmbigQA/blob/master/evidence.md' target='_blank'>details</a>)",
         "data/ambignq_with_evidence_articles.zip", "575M");
-      let card4 = loadDownloadCard("Download NQ-open",
+      let card4 = loadDownloadCard("Download ASQA",
+				   "[train/dev] question, answers with evidence and multiple references (for dev set) (<a href='https://github.com/google-research/language/tree/master/language/asqa' target='_blank'>details</a>)",
+        "https://github.com/google-research/language/tree/master/language/asqa/#download", "18M");
+      let card5 = loadDownloadCard("Download NQ-open",
         "[train/dev/test] question, NQ answer & associated document",
         "data/nqopen.zip", "3.9M");
 
 
-      $('#intro-content').append("<h3>Data</h3>" + readmes + "<br /><div class='readme' style='margin-top: 10px;'>" + card1 + card2 + card3 + card4 + "</div>")
+      $('#intro-content').append("<h3>Data</h3>" + readmes + "<br /><div class='readme' style='margin-top: 10px;'>" + card1 + card2 + card3 + card4 + card5 +"</div>")
       //$('#intro-content').append("<h3>Optional Resources</h3><div>" + card4 + card5 + card6 + "</div>")
       $('#intro-content').append(`<h3>Additional Resources</h3><div>
         <!--<span class="readme">` + loadGithubLink("README", "additional-resources") + `</span>-->
@@ -185,6 +188,9 @@
           (<a class="icons-sm email-ic" href="mailto:sewon@cs.washington.edu" target="_blank"><i class="fa fa-envelope-o"></i> Email</a>
           <a class="icons-sm twitter-ic" href="https://twitter.com/sewon__min" target="_blank"><i class="fa fa-twitter-square"></i> Twitter</a>)
           or leave <a href="` + github + `/issues"><i class="fa fa-github"></i> issues</a>.
+          For questions regarding to ASQA, pleas contact <a href="https://luanyi.github.io/" target="_blank">Yi Luan</a>                      
+          (<a class="icons-sm email-ic" href="mailto:luanyi@google.com" target="_blank"><i\
+ class="fa fa-envelope-o"></i> Email</a>)
         </p>
       `);
     });
