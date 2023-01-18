@@ -21,7 +21,7 @@
       "institution": "Google",
       "paper": "Stelmakh et al.",
       "paper-url": ourPaperURL,
-	"result": ["42.2", "39.0", "40.6", "-"]
+	"result": ["45.8", "39.0", "42.3", "-"]
     },
     {
       "rank": "1",
@@ -30,7 +30,7 @@
       "institution": "Google",
       "paper": "Stelmakh et al.",
       "paper-url": ourPaperURL,
-	"result": ["39.2", "26.4", "32.1", "29.7"]
+	"result": ["43.0", "26.4", "33.7", "29.7"]
     },
     {
       "rank": "2",
@@ -39,7 +39,7 @@
       "institution": "Google",
       "paper": "Stelmakh et al.",
       "paper-url": ourPaperURL,
-	"result": ["31.0", "7.4", "15.1", "-"]
+	"result": ["33.5", "7.4", "15.7", "-"]
     },
   ];
 
